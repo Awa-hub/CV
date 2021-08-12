@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylecv.css">
+	<title>CV</title>
+</head>
+<body>
+
+	<h1>KEITA AWA</h1>
+	<p><a href="image/img.png"><img src="image/img.png" alt="Photo de moi" width="100" height="100" /></a></p>
+	<div id="conteneur">
+    <div class="element 1">
+    	<h2 class="hs">Mon expérience</h2>
+	<ul>
+		<li>Licence en informatique de gestion</li>
+		<li>Stage de fin d'etude</li>
+	</ul>
+
+    </div>
+    <div class="element 2"><h2 class="hs">Mes compétences</h2>
+	<ul>
+		<li>HTML ET CSS</li>
+		<li>JAVASCRIPT</li>
+		<li>PHP</li>
+	</ul>
+	 </div>
+    <div class="element 3"><h2 class="hs">Ma formation</h2>
+	<p>J'ai suivie des formations sur office, ionic et des petites formations sur le plateform openclass.</p>
+ </div>
+</div>
+<script type="text/javascript">
+	var btn = document.createElement("BUTTON");        // Créer un élément <button>
+var t = document.createTextNode("Télécharge mon cv");       // Créer un noeud textuel
+btn.appendChild(t);                                // Ajouter le texte au bouton
+document.body.appendChild(btn);                    // Ajoute la balise <button> à la balise <body>
+btn.addEventListener("click", function() {
+  alert("Voici mon cv!");
+});
+
+</script>
+<!-- <BUTTON onclick="window.print()">telecharger</BUTTON>
+ --></body>
+</html>
