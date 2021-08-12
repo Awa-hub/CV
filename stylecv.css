@@ -1,0 +1,12 @@
+*{
+	background: orange;
+}
+
+.hs{
+	color: blue;
+}
+#conteneur
+{
+    display: flex;
+    justify-content: space-between;
+}
